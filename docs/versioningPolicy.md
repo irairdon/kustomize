@@ -30,10 +30,10 @@ Thus, they share the module's version number, per
 its git tag (e.g. `v3.0.0`), whose major verion
 number matches the [trailing major version
 indicator] in the module name (e.g. the `/v3` in
-`sigs.k8s.io/kustomize/v3`).
+`github.com/irairdon/kustomize/v3`).
 
 The non-internal packages in the Go module
-`sigs.k8s.io/kustomize/v3`, introduced in
+`github.com/irairdon/kustomize/v3`, introduced in
 [v3.0.0](v3.0.0.md), conform to [semantic
 versioning].
 

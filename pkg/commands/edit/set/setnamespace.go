@@ -22,9 +22,9 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/kustfile"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/commands/kustfile"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
 )
 
 type setNamespaceOptions struct {

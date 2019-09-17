@@ -6,12 +6,12 @@ package plugins_test
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	. "sigs.k8s.io/kustomize/v3/pkg/plugins"
-	plugins_test "sigs.k8s.io/kustomize/v3/pkg/plugins/test"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/internal/loadertest"
+	"github.com/irairdon/kustomize/v3/k8sdeps/kunstruct"
+	. "github.com/irairdon/kustomize/v3/pkg/plugins"
+	plugins_test "github.com/irairdon/kustomize/v3/pkg/plugins/test"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 )
 
 const (

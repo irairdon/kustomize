@@ -33,7 +33,7 @@ if [ -z ${GOPATH+x} ]; then
   exit 1
 fi
 
-pushd $GOPATH/src/sigs.k8s.io/kustomize
+pushd $GOPATH/src/github.com/irairdon/kustomize
 pwd
 
 # The first "step" in the following uses a special

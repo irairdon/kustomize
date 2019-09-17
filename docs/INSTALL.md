@@ -27,7 +27,7 @@ Requires [Go] v1.12 or higher:
 
 <!-- @installkustomize @testAgainstLatestRelease -->
 ```
-go install sigs.k8s.io/kustomize/v3/cmd/kustomize
+go install github.com/irairdon/kustomize/v3/cmd/kustomize
 ```
 
 ### Other methods

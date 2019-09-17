@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/git"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/git"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
 )
 
 // fileLoader is a kustomization's interface to files.

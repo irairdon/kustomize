@@ -3,7 +3,7 @@
 # Generate the Go code for the generator and
 # transformer factory functions in
 #
-#   sigs.k8s.io/kustomize/v3/plugin/builtin
+#   github.com/irairdon/kustomize/v3/plugin/builtin
 #
 # from the raw plugin directories found _below_
 # that directory.
@@ -20,7 +20,7 @@ if [ -z "$myGoPath" ]; then
   exit 1
 fi
 
-dir=$myGoPath/src/sigs.k8s.io/kustomize
+dir=$myGoPath/src/github.com/irairdon/kustomize
 
 if [ ! -d "$dir" ]; then
   echo "$dir is not a directory."
@@ -32,9 +32,9 @@ echo Generating linkable plugins...
 pushd $dir >& /dev/null
 
 GOPATH=$myGoPath go generate \
-    sigs.k8s.io/kustomize/v3/plugin/builtin/...
+    github.com/irairdon/kustomize/v3/plugin/builtin/...
 GOPATH=$myGoPath go fmt \
-    sigs.k8s.io/kustomize/v3/plugin/builtin
+    github.com/irairdon/kustomize/v3/plugin/builtin
 
 popd >& /dev/null
 

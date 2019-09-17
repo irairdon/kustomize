@@ -27,7 +27,7 @@ limitations under the License.
 //       tree/master/pkg/util/yaml
 //
 // It vendors that package into
-//   sigs.k8s.io/kustomize/vendor/k8s.io/apimachinery/
+//   github.com/irairdon/kustomize/vendor/k8s.io/apimachinery/
 //
 // Whereas kubectl-kustomize would have to depend on the "staging"
 // version of this code, located at

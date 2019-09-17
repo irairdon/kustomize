@@ -22,8 +22,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config/defaultconfig"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/transformers/config/defaultconfig"
 )
 
 // NewCmdConfig returns an instance of 'config' subcommand.

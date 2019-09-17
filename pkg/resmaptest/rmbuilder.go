@@ -6,9 +6,9 @@ package resmaptest_test
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/resid"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/resid"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 )
 
 // Builds ResMaps for tests, with test-aware error handling.

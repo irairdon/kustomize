@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	plugins_test "sigs.k8s.io/kustomize/v3/pkg/plugins/test"
+	"github.com/irairdon/kustomize/v3/pkg/kusttest"
+	plugins_test "github.com/irairdon/kustomize/v3/pkg/plugins/test"
 )
 
 func shouldContain(t *testing.T, s []byte, x string) {

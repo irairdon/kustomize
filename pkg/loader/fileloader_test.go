@@ -25,11 +25,11 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/git"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
-	"sigs.k8s.io/kustomize/v3/pkg/validators"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/git"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/pgmconfig"
+	"github.com/irairdon/kustomize/v3/pkg/validators"
 )
 
 type testData struct {

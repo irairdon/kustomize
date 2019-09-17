@@ -38,16 +38,16 @@ function testGoTests {
     
     # Requires helm.
     # At the moment not asking travis to install it.
-    go test -v sigs.k8s.io/kustomize/v3/pkg/target \
+    go test -v github.com/irairdon/kustomize/v3/pkg/target \
       -run TestChartInflatorPlugin -tags=notravis
-    go test -v sigs.k8s.io/kustomize/v3/plugin/someteam.example.com/v1/chartinflator/... \
+    go test -v github.com/irairdon/kustomize/v3/plugin/someteam.example.com/v1/chartinflator/... \
       -run TestChartInflator -tags=notravis
 
     # Requires kubeeval.
     # At the moment not asking travis to install it.
-    go test -v sigs.k8s.io/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
+    go test -v github.com/irairdon/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
        -run TestValidatorHappy -tags=notravis
-    go test -v sigs.k8s.io/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
+    go test -v github.com/irairdon/kustomize/v3/plugin/someteam.example.com/v1/validator/... \
        -run TestValidatorUnHappy -tags=notravis
   fi
 }
@@ -55,7 +55,7 @@ function testGoTests {
 function testExamplesAgainstLatestRelease {
   /bin/rm -f $HOME/go/bin/kustomize
   # Install latest release.
-  go get sigs.k8s.io/kustomize/v3/cmd/kustomize
+  go get github.com/irairdon/kustomize/v3/cmd/kustomize
   PATH=$HOME/go/bin:$PATH \
     mdrip --mode test --label testAgainstLatestRelease ./examples
 
@@ -73,7 +73,7 @@ function testExamplesAgainstLatestRelease {
 function testExamplesAgainstHead {
   /bin/rm -f $HOME/go/bin/kustomize
   # Install from head.
-  go install sigs.k8s.io/kustomize/v3/cmd/kustomize
+  go install github.com/irairdon/kustomize/v3/cmd/kustomize
   # To test examples of unreleased features, add
   # examples with code blocks annotated with some
   # label _other than_ @testAgainstLatestRelease.

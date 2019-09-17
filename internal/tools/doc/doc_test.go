@@ -165,7 +165,7 @@ func TestGetResources(t *testing.T) {
 		{
 			doc: KustomizationDocument{
 				Document: Document{
-					RepositoryURL: "sigs.k8s.io/kustomize",
+					RepositoryURL: "github.com/irairdon/kustomize",
 					FilePath:      "some/path/to/kdir/kustomization.yaml",
 					DocumentData: `
 bases:
@@ -179,15 +179,15 @@ resources:
 			},
 			resources: []*Document{
 				{
-					RepositoryURL: "sigs.k8s.io/kustomize",
+					RepositoryURL: "github.com/irairdon/kustomize",
 					FilePath:      "some/path/to/base",
 				},
 				{
-					RepositoryURL: "sigs.k8s.io/kustomize",
+					RepositoryURL: "github.com/irairdon/kustomize",
 					FilePath:      "some/path/to/otherbase",
 				},
 				{
-					RepositoryURL: "sigs.k8s.io/kustomize",
+					RepositoryURL: "github.com/irairdon/kustomize",
 					FilePath:      "some/path/to/kdir/file.yaml",
 				},
 				{

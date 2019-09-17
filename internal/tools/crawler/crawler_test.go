@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"sigs.k8s.io/kustomize/internal/tools/doc"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
+	"github.com/irairdon/kustomize/internal/tools/doc"
+	"github.com/irairdon/kustomize/v3/pkg/pgmconfig"
 )
 
 const (

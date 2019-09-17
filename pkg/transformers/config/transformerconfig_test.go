@@ -21,7 +21,7 @@ import (
 
 	"reflect"
 
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
+	"github.com/irairdon/kustomize/v3/pkg/gvk"
 )
 
 func TestAddNamereferenceFieldSpec(t *testing.T) {

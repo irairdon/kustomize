@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"log"
 
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
+	"github.com/irairdon/kustomize/v3/pkg/gvk"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/transformers/config"
 )
 
 type nameReferenceTransformer struct {

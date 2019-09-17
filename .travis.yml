@@ -22,7 +22,7 @@ language: go
 go:
   - "1.12"
 
-go_import_path: sigs.k8s.io/kustomize
+go_import_path: github.com/irairdon/kustomize
 
 before_install:
   - source ./travis/consider-early-travis-exit.sh

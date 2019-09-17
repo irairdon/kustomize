@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	. "sigs.k8s.io/kustomize/v3/pkg/target"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/internal/loadertest"
+	"github.com/irairdon/kustomize/v3/pkg/gvk"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/kusttest"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
+	. "github.com/irairdon/kustomize/v3/pkg/target"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 )
 
 const (

@@ -5,7 +5,7 @@
 package resmap
 
 import (
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 )
 
 // PatchFactory makes transformers that require k8sdeps.

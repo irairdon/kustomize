@@ -6,9 +6,9 @@ package resmap_test
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/gvk"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 )
 
 func setupRMForPatchTargets(t *testing.T) resmap.ResMap {

@@ -43,7 +43,7 @@ function godepRestore {
 
 function getKustomizeDeps {
   # get Kustomize and Kustomize dependencies
-  hack/run-in-gopath.sh godep get sigs.k8s.io/kustomize/pkg/commands
+  hack/run-in-gopath.sh godep get github.com/irairdon/kustomize/pkg/commands
   hack/run-in-gopath.sh godep get github.com/bgentry/go-netrc/netrc
   hack/run-in-gopath.sh godep get github.com/hashicorp/go-cleanhttp
   hack/run-in-gopath.sh godep get github.com/hashicorp/go-getter
@@ -74,14 +74,14 @@ function getKustomizeDeps {
 function updateK8s {
   # Copy k8sdeps from Kustomize to cli-runtime in staging
   mkdir -p $KPATH/src/k8s.io/kubernetes/staging/src/k8s.io/cli-runtime/pkg/kustomize
-  cp -r $KPATH/src/k8s.io/kubernetes/_output/local/go/src/sigs.k8s.io/kustomize/k8sdeps \
+  cp -r $KPATH/src/k8s.io/kubernetes/_output/local/go/src/github.com/irairdon/kustomize/k8sdeps \
     $KPATH/src/k8s.io/kubernetes/staging/src/k8s.io/cli-runtime/pkg/kustomize/k8sdeps
 
   # Change import path of k8sdeps
   find $KPATH/src/k8s.io/kubernetes/staging/src/k8s.io/cli-runtime/pkg/kustomize/k8sdeps \
     -type f -name "*.go" | \
     xargs sed -i \
-    's!sigs.k8s.io/kustomize/k8sdeps!k8s.io/cli-runtime/pkg/kustomize/k8sdeps!'
+    's!github.com/irairdon/kustomize/k8sdeps!k8s.io/cli-runtime/pkg/kustomize/k8sdeps!'
 
 
   # Add kustomize command to kubectl
@@ -98,9 +98,9 @@ function godepSave {
 }
 
 function verify {
-  # make sure in k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize
+  # make sure in k8s.io/kubernetes/vendor/github.com/irairdon/kustomize
   # there is no internal package
-  test 0 == $(ls $KPATH/src/k8s.io/kubernetes/vendor/sigs.k8s.io/kustomize | grep “internal” | wc -l)
+  test 0 == $(ls $KPATH/src/k8s.io/kubernetes/vendor/github.com/irairdon/kustomize | grep “internal” | wc -l)
 
   # Make sure it compiles.
   test 0 == $(bazel build cmd/kubectl:kubectl)

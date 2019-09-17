@@ -1,20 +1,20 @@
 // Copyright 2019 The Kubernetes Authors.
 // SPDX-License-Identifier: Apache-2.0
 
-//go:generate go run sigs.k8s.io/kustomize/v3/cmd/pluginator
+//go:generate go run github.com/irairdon/kustomize/v3/cmd/pluginator
 package main
 
 import (
 	"fmt"
 
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 
-	"sigs.k8s.io/kustomize/v3/pkg/hasher"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/inventory"
-	"sigs.k8s.io/kustomize/v3/pkg/resid"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/hasher"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/inventory"
+	"github.com/irairdon/kustomize/v3/pkg/resid"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 	"sigs.k8s.io/yaml"
 )
 

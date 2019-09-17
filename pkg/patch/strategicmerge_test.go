@@ -6,7 +6,7 @@ package patch
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 )
 
 func buildPatchStrategicMergeSlice(patchStrings []string) []types.PatchStrategicMerge {

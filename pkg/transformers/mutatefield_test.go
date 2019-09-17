@@ -18,8 +18,8 @@ package transformers
 
 import (
 	"fmt"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
 	"testing"
 )
 

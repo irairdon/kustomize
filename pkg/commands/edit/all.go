@@ -5,13 +5,13 @@ package edit
 
 import (
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/add"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/fix"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/remove"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit/set"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
+	"github.com/irairdon/kustomize/v3/pkg/commands/edit/add"
+	"github.com/irairdon/kustomize/v3/pkg/commands/edit/fix"
+	"github.com/irairdon/kustomize/v3/pkg/commands/edit/remove"
+	"github.com/irairdon/kustomize/v3/pkg/commands/edit/set"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/loader"
 )
 
 // NewCmdEdit returns an instance of 'edit' subcommand.

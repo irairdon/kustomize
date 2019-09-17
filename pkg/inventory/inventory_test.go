@@ -19,7 +19,7 @@ package inventory
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/resid"
+	"github.com/irairdon/kustomize/v3/pkg/resid"
 )
 
 func makeRefs() (Refs, Refs) {

@@ -4,7 +4,7 @@
 package target_test
 
 import (
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
+	"github.com/irairdon/kustomize/v3/pkg/kusttest"
 	"strings"
 	"testing"
 )

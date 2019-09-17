@@ -9,17 +9,17 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/transformer"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/validator"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/build"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/create"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/edit"
-	"sigs.k8s.io/kustomize/v3/pkg/commands/misc"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/irairdon/kustomize/v3/k8sdeps/transformer"
+	"github.com/irairdon/kustomize/v3/k8sdeps/validator"
+	"github.com/irairdon/kustomize/v3/pkg/commands/build"
+	"github.com/irairdon/kustomize/v3/pkg/commands/create"
+	"github.com/irairdon/kustomize/v3/pkg/commands/edit"
+	"github.com/irairdon/kustomize/v3/pkg/commands/misc"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/pgmconfig"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 )
 
 // NewDefaultCommand returns the default (aka root) command for kustomize command.
@@ -32,7 +32,7 @@ func NewDefaultCommand() *cobra.Command {
 		Short: "Manages declarative configuration of Kubernetes",
 		Long: `
 Manages declarative configuration of Kubernetes.
-See https://sigs.k8s.io/kustomize
+See https://github.com/irairdon/kustomize
 `,
 	}
 

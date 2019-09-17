@@ -8,11 +8,11 @@ import (
 	"log"
 	"strings"
 
-	"sigs.k8s.io/kustomize/v3/pkg/resid"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/resid"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/transformers"
+	"github.com/irairdon/kustomize/v3/pkg/transformers/config"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 )
 
 // ResAccumulator accumulates resources and the rules

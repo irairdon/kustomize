@@ -26,13 +26,13 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 
 	"k8s.io/apimachinery/pkg/labels"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
-	"sigs.k8s.io/kustomize/v3/pkg/gvk"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/gvk"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
 )
 
 var _ ifc.Kunstructured = &UnstructAdapter{}

@@ -124,13 +124,13 @@ To generate a token, go to your GitHub's account in Settings > Developer
 Settings > Personal access tokens. It should look like this.
 
 ![GitHub Token 1](
-https://sigs.k8s.io/kustomize/internal/tools/pictures/github_token.png)
+https://github.com/irairdon/kustomize/internal/tools/pictures/github_token.png)
 
 From here you want to generate a new token and  have the following
 configuration:
 
 ![GitHub Token 1](
-https://sigs.k8s.io/kustomize/internal/tools/pictures/token_config.png)
+https://github.com/irairdon/kustomize/internal/tools/pictures/token_config.png)
 
 If you have uses for any other data from this token, (org data, or something
 else) you can pick and choose, but be careful since it can grant this
@@ -217,7 +217,7 @@ overview of each component with the following sections going into more details.
 
 The overall structure is outlined in the following figure:
 ![overview](
-https://sigs.k8s.io/kustomize/internal/tools/pictures/sys_arch.png)
+https://github.com/irairdon/kustomize/internal/tools/pictures/sys_arch.png)
 
 #### Crawler
 The leftmost component consists of a crawler with an http cache of GitHub

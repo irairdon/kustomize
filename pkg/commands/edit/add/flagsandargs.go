@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"sigs.k8s.io/kustomize/v3/pkg/commands/util"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/commands/util"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
 )
 
 // flagsAndArgs encapsulates the options for add secret/configmap commands.

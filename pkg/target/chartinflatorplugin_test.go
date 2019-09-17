@@ -10,8 +10,8 @@ package target_test
 import (
 	"testing"
 
-	kusttest_test "sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	plugins_test "sigs.k8s.io/kustomize/v3/pkg/plugins/test"
+	kusttest_test "github.com/irairdon/kustomize/v3/pkg/kusttest"
+	plugins_test "github.com/irairdon/kustomize/v3/pkg/plugins/test"
 )
 
 // This is an example of using a helm chart as a base,

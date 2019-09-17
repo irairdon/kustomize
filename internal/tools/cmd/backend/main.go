@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"sigs.k8s.io/kustomize/internal/tools/backend"
+	"github.com/irairdon/kustomize/internal/tools/backend"
 )
 
 func main() {

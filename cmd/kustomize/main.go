@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"sigs.k8s.io/kustomize/v3/pkg/commands"
+	"github.com/irairdon/kustomize/v3/pkg/commands"
 )
 
 func main() {

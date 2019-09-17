@@ -53,7 +53,7 @@ kustomize and the plugin_.
 This means a one-time run of
 ```
 GOPATH=${whatever} go get \
-    sigs.k8s.io/kustomize/cmd/kustomize@${releaseVersion}
+    github.com/irairdon/kustomize/cmd/kustomize@${releaseVersion}
 ```
 
 and then a normal development cycle using

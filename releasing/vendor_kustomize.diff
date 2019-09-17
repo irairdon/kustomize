@@ -100,8 +100,8 @@ index 22b34de008..b91d1c0130 100644
          "//staging/src/k8s.io/client-go/restmapper:go_default_library",
          "//vendor/golang.org/x/text/encoding/unicode:go_default_library",
          "//vendor/golang.org/x/text/transform:go_default_library",
-+        "//vendor/sigs.k8s.io/kustomize/pkg/commands/build:go_default_library",
-+        "//vendor/sigs.k8s.io/kustomize/pkg/fs:go_default_library",
++        "//vendor/github.com/irairdon/kustomize/pkg/commands/build:go_default_library",
++        "//vendor/github.com/irairdon/kustomize/pkg/fs:go_default_library",
      ],
  )
  
@@ -197,8 +197,8 @@ index 32c1a691a5..d7a37e1cde 100644
  	"k8s.io/apimachinery/pkg/util/yaml"
  	"k8s.io/apimachinery/pkg/watch"
 +	"k8s.io/cli-runtime/pkg/kustomize/k8sdeps"
-+	"sigs.k8s.io/kustomize/pkg/commands/build"
-+	"sigs.k8s.io/kustomize/pkg/fs"
++	"github.com/irairdon/kustomize/pkg/commands/build"
++	"github.com/irairdon/kustomize/pkg/fs"
  )
  
  const (

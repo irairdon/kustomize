@@ -5,8 +5,8 @@ package add
 
 import (
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
 )
 
 // NewCmdAdd returns an instance of 'add' subcommand.

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"github.com/evanphx/json-patch"
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/pkg/ifc"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/ifc"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 	"sigs.k8s.io/yaml"
 )
 

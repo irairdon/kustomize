@@ -9,17 +9,17 @@ import (
 	"path/filepath"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/transformer"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	kusttest_test "sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
-	plugins_test "sigs.k8s.io/kustomize/v3/pkg/plugins/test"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/target"
-	"sigs.k8s.io/kustomize/v3/pkg/validators"
+	"github.com/irairdon/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/irairdon/kustomize/v3/k8sdeps/transformer"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	kusttest_test "github.com/irairdon/kustomize/v3/pkg/kusttest"
+	"github.com/irairdon/kustomize/v3/pkg/loader"
+	"github.com/irairdon/kustomize/v3/pkg/plugins"
+	plugins_test "github.com/irairdon/kustomize/v3/pkg/plugins/test"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/target"
+	"github.com/irairdon/kustomize/v3/pkg/validators"
 )
 
 func TestPluginDir(t *testing.T) {

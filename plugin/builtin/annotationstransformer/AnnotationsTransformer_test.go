@@ -6,8 +6,8 @@ package main_test
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
-	plugins_test "sigs.k8s.io/kustomize/v3/pkg/plugins/test"
+	"github.com/irairdon/kustomize/v3/pkg/kusttest"
+	plugins_test "github.com/irairdon/kustomize/v3/pkg/plugins/test"
 )
 
 func TestAnnotationsTransformer(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/internal/loadertest"
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/internal/loadertest"
+	"github.com/irairdon/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
 )
 
 func TestExecPluginConfig(t *testing.T) {

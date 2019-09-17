@@ -22,7 +22,7 @@ import (
 	"os/exec"
 
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
 )
 
 // Cloner is a function that can clone a git repo.

@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"sigs.k8s.io/kustomize/internal/tools/crawler"
-	"sigs.k8s.io/kustomize/internal/tools/doc"
-	"sigs.k8s.io/kustomize/internal/tools/httpclient"
-	"sigs.k8s.io/kustomize/v3/pkg/git"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
+	"github.com/irairdon/kustomize/internal/tools/crawler"
+	"github.com/irairdon/kustomize/internal/tools/doc"
+	"github.com/irairdon/kustomize/internal/tools/httpclient"
+	"github.com/irairdon/kustomize/v3/pkg/git"
+	"github.com/irairdon/kustomize/v3/pkg/pgmconfig"
 )
 
 var logger = log.New(os.Stdout, "Github Crawler: ",

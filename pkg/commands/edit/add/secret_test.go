@@ -6,10 +6,10 @@ package add
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
-	"sigs.k8s.io/kustomize/v3/pkg/loader"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
-	"sigs.k8s.io/kustomize/v3/pkg/validators"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/loader"
+	"github.com/irairdon/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/validators"
 )
 
 func TestNewCmdAddSecretIsNotNil(t *testing.T) {

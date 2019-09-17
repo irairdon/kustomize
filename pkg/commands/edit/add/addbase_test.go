@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/commands/kustfile"
-	"sigs.k8s.io/kustomize/v3/pkg/fs"
+	"github.com/irairdon/kustomize/v3/pkg/commands/kustfile"
+	"github.com/irairdon/kustomize/v3/pkg/fs"
 )
 
 const (

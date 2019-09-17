@@ -18,9 +18,9 @@ package transformers
 
 import (
 	"fmt"
-	"sigs.k8s.io/kustomize/v3/pkg/expansion"
-	"sigs.k8s.io/kustomize/v3/pkg/resmap"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
+	"github.com/irairdon/kustomize/v3/pkg/expansion"
+	"github.com/irairdon/kustomize/v3/pkg/resmap"
+	"github.com/irairdon/kustomize/v3/pkg/transformers/config"
 )
 
 type RefVarTransformer struct {

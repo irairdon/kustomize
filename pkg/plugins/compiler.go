@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
+	"github.com/irairdon/kustomize/v3/pkg/pgmconfig"
 )
 
 // Compiler creates Go plugin object files.

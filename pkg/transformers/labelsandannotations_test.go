@@ -6,10 +6,10 @@ package transformers
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/k8sdeps/kunstruct"
-	"sigs.k8s.io/kustomize/v3/pkg/resmaptest"
-	"sigs.k8s.io/kustomize/v3/pkg/resource"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
+	"github.com/irairdon/kustomize/v3/k8sdeps/kunstruct"
+	"github.com/irairdon/kustomize/v3/pkg/resmaptest"
+	"github.com/irairdon/kustomize/v3/pkg/resource"
+	"github.com/irairdon/kustomize/v3/pkg/transformers/config"
 )
 
 var rf = resource.NewFactory(kunstruct.NewKunstructuredFactoryImpl())

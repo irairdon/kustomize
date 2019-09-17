@@ -5,12 +5,12 @@ package target
 
 import (
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kustomize/v3/pkg/image"
-	"sigs.k8s.io/kustomize/v3/pkg/plugins"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers"
-	"sigs.k8s.io/kustomize/v3/pkg/transformers/config"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
-	"sigs.k8s.io/kustomize/v3/plugin/builtin"
+	"github.com/irairdon/kustomize/v3/pkg/image"
+	"github.com/irairdon/kustomize/v3/pkg/plugins"
+	"github.com/irairdon/kustomize/v3/pkg/transformers"
+	"github.com/irairdon/kustomize/v3/pkg/transformers/config"
+	"github.com/irairdon/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/plugin/builtin"
 	"sigs.k8s.io/yaml"
 )
 

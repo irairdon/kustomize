@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/v3/pkg/kusttest"
+	"github.com/irairdon/kustomize/v3/pkg/kusttest"
 )
 
 func TestBasicVariableRef(t *testing.T) {

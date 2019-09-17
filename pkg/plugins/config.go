@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"github.com/spf13/pflag"
 	"path/filepath"
-	"sigs.k8s.io/kustomize/v3/pkg/pgmconfig"
-	"sigs.k8s.io/kustomize/v3/pkg/types"
+	"github.com/irairdon/kustomize/v3/pkg/pgmconfig"
+	"github.com/irairdon/kustomize/v3/pkg/types"
 )
 
 const (
