@@ -10,13 +10,15 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/pkg/errors"
+	"github.com/kr/pretty"
+
 	"github.com/irairdon/kustomize/v3/pkg/ifc"
 	"github.com/irairdon/kustomize/v3/pkg/resid"
 	"github.com/irairdon/kustomize/v3/pkg/resmap"
 	"github.com/irairdon/kustomize/v3/pkg/resource"
 	"github.com/irairdon/kustomize/v3/pkg/transformers"
 	"github.com/irairdon/kustomize/v3/pkg/types"
+	"github.com/pkg/errors"
 )
 
 type Configurable interface {
@@ -159,6 +161,7 @@ func (l *Loader) loadGoPlugin(id resid.ResId) (Configurable, error) {
 			err, "plugin %s doesn't have symbol %s",
 			regId, PluginSymbol)
 	}
+	pretty.Println(symbol)
 	c, ok := symbol.(Configurable)
 	if !ok {
 		return nil, fmt.Errorf("plugin %s not configurable", regId)
